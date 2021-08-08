@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "click-counter@1.0.0",
+    "stage": "start",
+    "script": "react-scripts start",
+    "pkgname": "click-counter",
+    "err": {
+      "name": "Error",
+      "message": "click-counter@1.0.0 start: `react-scripts start`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "Error: click-counter@1.0.0 start: `react-scripts start`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/usr/local/pnpm-global/4/node_modules/.pnpm/pnpm@6.11.5/node_modules/pnpm/dist/pnpm.cjs:93047:22)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)"
+    }
+  }
+}
